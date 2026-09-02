@@ -13,7 +13,7 @@ public record Vector3D(double x, double y, double z){
  }
 
  //gives the direction between 2 points like the camera/ light  to the object
-    public Vector3D substract(Vector3D o){
+    public Vector3D subtract(Vector3D o){
      return new Vector3D(x-o.x, y-o.y, z-o.z);
  }
    // if i scale by 2 I am making the vector/distance as twice as long.

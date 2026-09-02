@@ -16,7 +16,9 @@ public abstract class Shape {
     protected Shape(Material material) {
         this.material = material;
     }
-
+    public Material material() {
+        return material;
+    }
     // now check if the ray hits the shape
     //Returns the hit details, or empty on a miss. Each subclass will override this.
     // there are no calculation of the hit because it will hit different shapes and they need there own calculation. it is here so that You MUST implement hit() in the specified shape and the child decide how
