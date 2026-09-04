@@ -5,8 +5,8 @@ package raytracer.math;
 //0–255 = save/display the final 8 bit pixel
 public record Color(double r , double g, double b) {
 
-    static final Color black = new Color(0, 0, 0);
-    static final Color white = new Color(1, 1, 1);
+    public static final Color BLACK = new Color(0, 0, 0);
+    public static final Color WHITE = new Color(1, 1, 1);
 
     // usefull if a point of a ball gets lights from 2 lamps so the add gives me the total
     public Color add(Color o){
