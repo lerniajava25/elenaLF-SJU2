@@ -10,3 +10,5 @@ Elena Lehto FredenbrinkSystemutveckling Java - Uppgift 2
 ### [https://www.youtube.com/watch?v=kHNewYRvgSk]
 ### [https://raytracing.github.io/]
 ### Lembert's cosine law:  Surface law [https://www.youtube.com/watch?v=0zmLe4SssJc]
+
+![Ray tracer render](render.png)
